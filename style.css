@@ -1,0 +1,74 @@
+html {
+	max-width: 1440px;
+	margin: auto;
+	background-color: white;
+}
+
+body {
+	height: 100%;
+	margin: 0 auto;
+	background-image: url("images/pattern-background-desktop.svg");
+	background-color: hsl(225, 100%, 94%);
+	background-repeat: no-repeat;
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+.content {
+	max-width: 350px;
+	margin: auto;
+
+
+}
+.card {
+	height: 500px;
+	background-image: url("images/illustration-hero.svg");
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: 350px;
+		border-radius: 10px;
+		box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+h1 {
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 900;
+	padding-top: 200px;
+	text-align: center;
+	font-size: 24px;
+}
+
+h2 {
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 700;
+
+	font-size: 16px;
+
+}
+
+p {
+	padding: 0 40px 0 40px;
+	font-size: 15px;
+	font-family: 'Red Hat Display', sans-serif;
+	text-align: center;
+	color: rgb(115, 115, 115);
+	line-height: 20px;
+}
+.price {
+	background-color: rgba(235, 238, 250, 0.83);
+ 	margin-left: 27px;
+  margin-right: 27px;
+	border-radius: 10px;
+	padding-left: 20px;
+
+
+}
+.icon {
+    background: url('images/icon-music.svg');
+		height: 48px;
+    width: 48px;
+    display: block;
+		background-repeat: no-repeat;
+
+}
+.iconposition {
+
+}
