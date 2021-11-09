@@ -13,21 +13,22 @@ body {
 	padding-top: 100px;
 	padding-bottom: 120px;
 }
+
 .content {
 	max-width: 350px;
 	margin: auto;
-
-
 }
+
 .card {
 	height: 500px;
 	background-image: url("images/illustration-hero.svg");
 	background-color: white;
 	background-repeat: no-repeat;
 	background-size: 350px;
-		border-radius: 10px;
-		box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+	border-radius: 10px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
+
 h1 {
 	font-family: 'Red Hat Display', sans-serif;
 	font-weight: 900;
@@ -41,7 +42,6 @@ h2 {
 	font-weight: 700;
 	position: relative;
 	font-size: 16px;
-
 }
 
 p {
@@ -52,28 +52,37 @@ p {
 	color: rgb(115, 115, 115);
 	line-height: 20px;
 }
+
 .price {
 	display: flex;
-	justify-content: flex-start;
+	padding: 5px 0px 5px 10px;
 	background-color: rgba(235, 238, 250, 0.83);
 	margin: 10px auto;
 	width: 90%;
 	border-radius: 10px;
-	padding-left: 20px;
-
 
 }
+
 .icon {
-    background: url('images/icon-music.svg');
-		height: 48px;
-    width: 48px;
-    display: block;
-		background-repeat: no-repeat;
-		position: relative;
-		padding-top: 20px;
-		padding-bottom: 20px;
+	flex-grow: 1;
+	background: url('images/icon-music.svg');
+	height: 48px;
+	width: 48px;
+
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.plan {
+	flex-grow: 2;
+	margin: auto;
+}
+.plan h2 {
+	margin: 0;
 
 }
-.iconposition {
-
+.change {
+	flex-grow: 1;
+	margin: auto;
 }
+.iconposition {}
