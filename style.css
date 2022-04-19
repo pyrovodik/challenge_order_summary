@@ -20,7 +20,7 @@ body {
 }
 
 .card {
-	height: 500px;
+	height: 525px;
 	background-image: url("images/illustration-hero.svg");
 	background-color: white;
 	background-repeat: no-repeat;
@@ -79,22 +79,79 @@ a .one {
 .plan {
 	flex-grow: 2;
 	margin: auto;
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 13px;
 }
-.plan h2 {
+
+.change a:link {
+	font-family: 'Red Hat Display', sans-serif;
+	transition-duration: 0.3s;
+	font-size: 15px;
+
+}
+.change a:hover {
+	font-family: 'Red Hat Display', sans-serif;
+	text-decoration: none;
+
+}
+.plan h2 {	
 	margin: 0;
+
 
 }
 .change {
 	flex-grow: 1;
 	margin: auto;
 }
-.iconposition {}
 
 .button {
-	background-color: hsl(223, 47%, 23%);
-	border-radius: 3px;
+	margin: auto;
+	display: flex;
+}
+
+button.button:hover {
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	transition-duration: 0.4s;
+	background-color: #5345ec;
+}
+
+button.button {
+	
+	background-color: #382AE1;
+	border: none;
+	text-align: center;
+	border-radius: 5px;
 	margin: 10px auto;
 	color: white;
 	width: 90%;
+	height: 45px;
+	display: inline-block;
+	cursor: pointer;
+	padding: 17	px;
+	font-family: 'Red Hat Display', sans-serif;	
+	font-size: 14px;
+	font-weight: bold;
 
+}
+
+.cancel {
+	color: grey;
+	text-align: center;
+	margin: 7px auto;
+	font-family: 'Red Hat Display', sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.cancel:link {
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+
+}
+
+a.cancel:hover {
+	color:#382AE1;
+	transition-duration: 0.3s;
+	
 }
