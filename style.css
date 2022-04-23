@@ -52,6 +52,7 @@ p {
 	color: rgb(115, 115, 115);
 	line-height: 20px;
 }
+
 a .one {
 	color: black;
 }
@@ -65,6 +66,11 @@ a .one {
 	border-radius: 10px;
 
 }
+
+/* .price:hover {
+	background-color: rgb(123, 130, 235);
+	transition-duration: 0.6s;
+} */
 
 .icon {
 	flex-grow: 1;
@@ -94,11 +100,12 @@ a .one {
 	text-decoration: none;
 
 }
+
 .plan h2 {	
 	margin: 0;
 
-
 }
+
 .change {
 	flex-grow: 1;
 	margin: auto;
@@ -116,7 +123,6 @@ button.button:hover {
 }
 
 button.button {
-	
 	background-color: #382AE1;
 	border: none;
 	text-align: center;
@@ -143,14 +149,14 @@ button.button {
 	font-weight: bold;
 }
 
-a.cancel:link {
+.cancel a:link {
 	text-align: center;
 	text-decoration: none;
 	font-size: 14px;
 
 }
 
-a.cancel:hover {
+.cancel a:hover {
 	color:#382AE1;
 	transition-duration: 0.3s;
 	
